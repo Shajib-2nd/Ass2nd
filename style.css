@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Quicksand", serif;
+}
+
+/* style sheared */
+
+.orange {
+    color: #FEA301;
+}
+
+.blue {
+    color: #01ACFD;
+}
+
+.black {
+    color: black;
+}
+
+.sea-green {
+    color: #05D4DF;
+}
+
+.dark-blue {
+    color: #5D58EF;
+}
+
+
+
+.btn-primary {
+    background-color: #FEA301;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+
+}
+
+
+
+/* nav section */
+
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+}
+
+.logo>img {
+    width: 42px;
+    height: 42px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-decoration: none;
+
+}
+
+.hide-button {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
+.nav-links,
+li,
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* banner section */
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.h-text {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.p-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* standard-card */
+
+.standard-h1 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 46px;
+    font-weight: 700px;
+}
+
+.standard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-1 {
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 50px 15px;
+    text-align: center;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.card-2 {
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 50px 15px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+}
+
+.card-3 {
+    border-radius: 18.864px;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 50px 15px;
+    text-align: center;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    border: 0.943px solid #F2E8FF;
+}
+
+.standard-bg-img {
+    background: url(./assets/bg.png) white 50% / cover no-repeat;
+}
+
+.standard-p {
+    color: dimgrey;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.standard-p-read-more {
+    margin-top: 33px;
+}
+
+.bg-clr-btn {
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.standard-btn-cntr {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+/* our stry sectiopn */
+
+.stry-h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.stry-main-section {
+    margin-top: 100px;
+    background:
+        0% 0% / 100px 100px,
+        linear-gradient(0deg, rgba(239, 185, 92, 0.3) 0%, rgba(255, 255, 255, 0.30) 100%);
+}
+
+.container-stry {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 16px;
+}
+
+.large-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: white;
+    border-radius: 16px;
+    width: 540.27px;
+    position: relative;
+}
+
+.large-card>h2 {
+    font-size: 20px;
+    padding: 10px 30px;
+    line-height: 30px;
+}
+
+.large-card>p {
+    font-size: 10px;
+    padding: 10px 30px 0px;
+    line-height: 20px;
+    color: #666;
+
+}
+
+.large-card>img {
+    width: 540.27px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.small-card {
+    background-color: white;
+    border-radius: 16px 16px 16px 16px;
+    position: relative;
+}
+
+.main-stry-btn {
+    position: absolute;
+    top: 314px;
+    left: 30px;
+}
+
+.main-stry-btn>button {
+    border-radius: 47.934px;
+    background: #3CD8E8;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.btn-possition {
+    position: absolute;
+    top: 155px;
+    left: 30px;
+}
+
+.btn-stry-clr-1 {
+    border-radius: 47.934px;
+    background: #95B226;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+
+.btn-stry-clr {
+    border-radius: 47.934px;
+    background: #5D58F0;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.small-card>h2 {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 30px;
+    line-height: 20px;
+}
+
+.small-card>img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+/* nav scetion responsive */
+
+@media screen and (max-width:576px) {
+
+    .nav-links,
+    .btn-primary,
+    .logo>h3 {
+        display: none;
+    }
+
+    .hide-button {
+        display: block;
+    }
+
+    .logo>img {
+        width: 40px;
+    }
+
+    hr {
+        border-bottom: #FEA301 1px solid;
+        display: block;
+    }
+
+    /* banner section */
+
+    .banner-section {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        gap: 0px;
+    }
+
+    .img>img {
+        width: 100%;
+    }
+
+    .text-content {
+        text-align: center;
+
+    }
+
+    .h-text {
+        font-size: 32px;
+        font-weight: 900;
+
+    }
+
+    .p-text {
+        font-size: 14px;
+        font-weight: 500;
+        font: bold;
+    }
+
+    /* standard-card */
+
+    .standard-container {
+        flex-direction: column;
+    }
+
+    .standard-h1 {
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .standard-btn-cntr {
+        display: none;
+    }
+
+    /* our stry */
+
+    .container-stry {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        column-gap: 0;
+    }
+
+
+    .large-card {
+        display: none;
+    }
+
+    .small-card {
+        width: 163px;
+    }
+
+    .small-card>img {
+        width: 163px;
+    }
+
+    .btn-possition>button {
+        font-size: 10px;
+
+    }
+
+    .small-card {
+        position: relative;
+    }
+
+    .btn-possition {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+    }
+
+}
